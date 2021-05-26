@@ -1,0 +1,146 @@
+///TABLA FAVORITOS//
+
+.tablaFavoritos{
+    text-align: left;
+}
+
+html{
+    width: 100%;
+    height: 100%; 
+
+}
+body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FFC581;
+}
+// CSS DE LA PAGINA HOME
+header{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+#titulo{
+    margin: 8px;
+    font-family: 'Handwritten'; 
+    font-size: 40px;
+    top: 0;
+}
+#logo{
+    font-family: "Great vibes";
+    font-size: 30px;
+    padding: 9px;
+    padding-right: 15px;
+    border-color: black;
+    border-radius: 10px;
+    color: #0084FF;
+    background-color: #FFC581;
+}
+
+.hamburger{
+    background:#0084FF;
+    border-radius: 10px;
+    border-color: white;
+    line-height:45px;
+    padding:0px 15px 0px 15px;
+    color:white;
+    border:2px;
+    border-color: white;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    float: left;
+    margin-top: 5px;
+}
+
+#hr{
+    width: 100%;
+    color: black;
+}
+
+//////////////////////////////////////////////////////HOME//////////////////////////////
+#inferior{
+
+    float: bottom;
+
+}
+#crearButton{
+    background-color: #0084FF;
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+#crearButton:hover{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#9abdff, #0084FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9abdff, #0084FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9abdff, #0084FF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9abdff, #0084FF); /* Standard syntax */
+}
+#buscraButton:hover{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#9abdff, #0084FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9abdff, #0084FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9abdff, #0084FF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9abdff, #0084FF); /* Standard syntax */
+}
+#buscraButton{
+    background-color: #0084FF;
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+strong, img{
+    display: block;
+}
+img{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#logout{
+    margin-top: 10px;
+}
+/*#login{
+    background-color: #0084FF;
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#login:hover{
+    background: red; /* For browsers that do not support gradients */
+/* background: -webkit-linear-gradient(#9abdff, #0084FF); /* For Safari 5.1 to 6.0 */
+//  background: -o-linear-gradient(#9abdff, #0084FF); /* For Opera 11.1 to 12.0 */
+//  background: -moz-linear-gradient(#9abdff, #0084FF); /* For Firefox 3.6 to 15 */
+//  background: linear-gradient(#9abdff, #0084FF); /* Standard syntax */
+//}
+
+#logout{
+    background-color: #ff3a1b;
+    border-radius: 15px;
+    border-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#logout:hover{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffa89a, #ff3a1b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffa89a, #ff3a1b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffa89a, #ff3a1b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffa89a, #ff3a1b); /* Standard syntax */
+}
+
+#ex1Slider .slider-selection {
+    background: #BABABA;
+}
+
+
