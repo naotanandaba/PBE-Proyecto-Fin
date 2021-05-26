@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/custom"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textUsername"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Username" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/custom_button"
+        android:baselineAligned="false"
+        android:gravity="center"
+
+        android:onClick="logOut"
+        android:text="Logout" />
+
+    <EditText
+        android:id="@+id/textQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Query"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:lines="1"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="httpGet"
+        android:backgroundTint="@color/custom_button"
+        android:text="SEND REQUEST" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:imeOptions="actionDone"
+        android:gravity="center"
+        android:text="Title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
