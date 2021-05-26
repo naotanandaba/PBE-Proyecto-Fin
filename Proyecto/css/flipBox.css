@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-mar-2016, 16:23:51
+    Author     : joseantonio
+*/
+
+
+.ui-datebox-fliplab {
+	text-align: center;
+}
+.ui-datebox-flipcenter {
+	width: 260px;
+	height: 40px;
+	border: 1px solid #EEEEEE;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.ui-datebox-flipcontent {
+	text-align: center;
+	height: 123px;
+	margin-bottom: -40px;
+}
+.ui-datebox-flipcontent div {
+	margin-left: 3px;
+	margin-right: 3px;
+	width: 77px;
+	height: 120px;
+	display: inline-block;
+	text-align: center;
+	zoom: 1;
+	*display: inline;
+	overflow: hidden;
+}
+.ui-datebox-flipcontentd div {
+	width: 60px;
+}
+.ui-datebox-flipcontent ul {
+	list-style-type: none;
+	display: inline;
+	border:1px solid rgba(0,0,0,0);
+}
+.ui-datebox-flipcontent li {
+	height: 30px;
+}
+.ui-datebox-flipcontent li span {
+	margin-top: 7px;
+	display: block;
+}
